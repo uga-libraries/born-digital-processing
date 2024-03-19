@@ -70,3 +70,5 @@ This documentation includes:
 The first born-digital processing workflow was documented in the Hargrett and Russell libraries' "Electronic Records Processing Manual" created in 2013 by Adriane Hanson (Head of Digital Stewardship). Additional documentation and scripts were created by Brandon Pieczko (Processing and Digital Archivist, Russell Library) in 2019. This documentation supersedes the prior suite of [born-digital processing documentation](https://github.com/uga-libraries/born-digital-processing/tree/main/legacy-docs-2017-2019) created at that time.
 
 The initial version of this workflow was completed in August 2023 by Emmeline Kaser (Digital Archivist, Digital Stewardship) and represents the processes in place starting in August 2022. This workflow draws conceptually from older documentation but supersedes those processes due to changes in technological capabilities.
+
+Documentation last reviewed: March 2024
