@@ -52,11 +52,10 @@ Processed born-digital archives should be arranged as needed, any known sensitiv
 
 ## Documentation Overview
 
-The ArchivesSpace resource record provides an overview of the collection materials, including a complete list of AIPs with titles, size information, subject information, and a linked file inventory spreadsheet containing relevant information regarding any redaction and/or reformatting. The finding aid data is supplemented by additional preservation documentation saved in the collection folder. 
+The ArchivesSpace resource record provides an overview of the collection materials, including a complete list of AIPs with titles, size information, subject information, and a linked file inventory spreadsheet containing relevant information regarding any redaction and/or reformatting. The finding aid data is supplemented by the processing plan in the accession record and additional preservation documentation saved in the collection folder. 
 
 This documentation includes:
 
-  * Processing plan in the accession record
   * File path change log, if applicable
   * Redaction log, if applicable
   * Reformatting log, if applicable
@@ -71,4 +70,4 @@ The first born-digital processing workflow was documented in the Hargrett and Ru
 
 The initial version of this workflow was completed in August 2023 by Emmeline Kaser (Digital Archivist, Digital Stewardship) and represents the processes in place starting in August 2022. This workflow draws conceptually from older documentation but supersedes those processes due to changes in technological capabilities.
 
-Documentation last reviewed: March 2024
+Documentation last reviewed: September 2024
