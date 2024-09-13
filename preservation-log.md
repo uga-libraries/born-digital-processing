@@ -1,22 +1,16 @@
 # Preservation Log
 
-*Copied from the [2019 workflow](https://github.com/uga-libraries/born-digital-accessioning/tree/main/legacy-docs-2017-2019) with minor updates.*
-
 Hargrett and Russell A&D uses a preservation log to record every action taken on a group of files, organized by accession and by each piece of removable media/file transfer. The log includes the action taken, tool used (if applicable), results of the action, and who performed the action.
 
-There should be one preservation log per accession. The document is saved as a plain text, tab-delimited file (.txt) so we can later ingest all the documentation into a database that records preservation events for better use of the information.
-
-This template was adopted prior to the University Libraries' implementation of [PREMIS metadata](https://www.loc.gov/standards/premis/). The information gathered was compared to PREMIS event metadata in 2017. The only information missing is an identifier and event type, both of which could be assigned once the metadata is ingested into a database. The "Action" field includes information that would be split into three PREMIS fields: detail information, outcome information, and agent (software). We will keep the current template for now so that all the metadata is structured consistently to facilitate ingest into a database, but may split this field at a later date.
+There should be one preservation log per accession. The document is saved as a plain text, tab-delimited file (.txt).
 
 ## Information Recorded
 
-Each row should only have information about one action taken on a single group of files (typically all files from a single piece of removable media or single transfer). Record preservation actions as you work through the accessioning process so that the documentation is accurate and up-to-date.
+Each row should only have information about one action taken on the files associated with a single ([Digital Media Identifier](./digital-media-identifier.md)). Record preservation actions as they occur so that the documentation is accurate and up-to-date. Relevant events include virus scanning, copying, bag creation, and bag validation (or other fixity validation).
 
-This documentation covers events from acquisition through appraisal. 
+* **Collection number:** The collection number for the materials, including any library-specific prefixes (RBRL, HARG.MS).
 
-* **Collection number:** use lowercase letters, numbers, and dashes (e.g., rbrl-272-ti). This is included in the text rather than relying on the file title or the folder the file is saved in so that we have all necessary identifying information if the record is ever ingested into a database.
-
-* **Accession number:** use lowercase letters, numbers, and dashes (e.g., 2010-62-er).  This is included in the text rather than relying on the file title or the folder the file is saved in so that we have all necessary identifying information if the record is ever ingested into a database.
+* **Accession number:** The accession number for the materials, which must include "-ER" at the end.
 
 * **Date:** format YYYY-MM-DD. For actions that span more than one day, record the date the process finished.
 
@@ -66,3 +60,9 @@ This documentation covers events from acquisition through appraisal.
 ### Appraisal (of previously copied files)
 
 *   No files were kept from this disk after appraisal. The files were deleted from _[preservation location]_.
+
+## Revision History 
+
+Originally created by Brandon Pieczko, Processing and Digital Archivist, in 2019 and added to current documentation suite with minor updates in 2023 by Emmeline Kaser, Digital Archivist.
+
+The workflow was updated in September 2024 by Emmeline Kaser to more accurately reflect the current documentation process and remove references to a database, as we currently have no plans for this. 
