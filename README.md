@@ -53,6 +53,7 @@ Processed born-digital archives should be arranged as needed, any known sensitiv
      * AIP ID is dept-coll-er-######
      * Collection ID should not include letters from legacy Russell ids, 
        but does include Hargrett repository letters like ms and ua
+   * Move to Preservation column in Planner and assign responsibility to the Head of Digital Stewardship to notify 
 8. Generate file inventories for each DIP.
 9. Turn the arranged materials into AIPs using the [general_aip.py](https://github.com/uga-libraries/general-aip) script. 
 10[Ingest the AIPs](./ingest.md) into the digital preservation system. The original files should always be ingested as Version 1. Any AIPs containing reformatted files should be ingested as Version 2.
