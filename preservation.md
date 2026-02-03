@@ -31,7 +31,24 @@ Results are documented in aip_qc_results.txt. Template in Digital Stewardship Te
     * Bag has objects and metadata folders.
     * The number of files in objects matches the number of FITS in metadata.
     * The contents of preservation.xml matches the metadata.csv and combined FITS XML.
+    * Look for anything that doesn't look right.
+5. Note PASS/FAIL for the AIP Creation portion of aip_qc_results.txt
 
 ## ARCHive Ingest
+Add the AIPs to UGA's digital preservation system. See DCWG Teams for documentation.
+
+### Job Scheduling
+1. Copy the zipped AIPs to the ARCHive ingest folder.
+2. Schedule the job for ingest via the ARCHive application
+
+### Quality Control
+1. Review the Job Summary in the ARCHive application for errors.
+2. Compare the preservation.xml and manifest.csv to the metadata in the ARCHive application for the AIP sample.
+3. Check the version and audit logs in the ARCHive application for the AIP sample.
+4. Request one file back from ARCHive.
+    * Only do this once per day if creating AIPs for multiple collections, as the ARCHive automatic ingest verification is sound.
+    * Validate the zip MD5 or unzip and validate the bag.
+    * Check the copy request log for the AIP in the ARCHive application.
+5. Note PASS/FAIL for the ARCHIVE INGEST portion of aip_qc_results.txt.
 
 ## Documentation and Hand Off
