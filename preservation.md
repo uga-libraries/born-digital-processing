@@ -65,6 +65,7 @@ Add the AIPs to UGA's digital preservation system. See DCWG Teams for documentat
 5. Note PASS/FAIL for the ARCHIVE INGEST portion of aip_qc_results.txt.
 
 ## Documentation and Hand Off
+Wait until all AIPs have successfully ingested into ARCHive and passed QC.
 
 ### Hub
 Move PreservationCopy back into the Hub collection folder,
