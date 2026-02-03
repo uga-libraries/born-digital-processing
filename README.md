@@ -3,6 +3,8 @@
 
 The following processes were instituted in August 2022. Digital archives processing is the responsibility of the digital archivist in the Digital Stewardship unit. This is a unified workflow that receives born-digital archival material from both the Russell and Hargrett libraries. The digital archivist works in collaboration with each library's collecting archivists to properly address sensitive information and provide an appropriate level of description for each collection.
 
+Starting in 2026, preservation steps were transferred to the Head of Digital Stewardship.
+
 ## Overview
 
 Processing actions are defined here as processes that prepare born-digital archives for ingest into permanent digital preservation storage and subsequent researcher access. Processing begins after all digital components in a collection are [accessioned](https://github.com/uga-libraries/born-digital-accessioning#accessioning-workflow-for-born-digital-archives) and [appraised](https://github.com/uga-libraries/born-digital-accessioning/blob/main/appraisal.md).
