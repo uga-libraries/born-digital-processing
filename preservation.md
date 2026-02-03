@@ -35,7 +35,7 @@ Results are documented in [aip_qc_results.txt](linked-documents/aip_qc_results.t
 
 1. Review AIP log for errors.
 2. Zip all preservation.xml and validate in ARCHive, adding collection if needed.
-3. Compare MD5 checksums of the accession(s) to the AIP(s) using the bag manifests.
+3. Compare MD5 checksums of the accession(s) to the AIP(s) using the bag manifests. [excel-md5-compare.md](linked-documents/excel-md5-compare.md)
 4. Check 1-5 AIPs (depending on number of AIPs and level of difference) in more detail.
     * Bag has MD5 and SHA manifests.
     * Bag has objects and metadata folders.
