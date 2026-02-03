@@ -42,6 +42,8 @@ Processed born-digital archives should be arranged as needed, any known sensitiv
 3. If there is a risk for sensitive data, scan the collection using Bulk Reviewer in the BitCurator environment. [Identify any sensitive information](./sensitive-data.md#identifying-information-for-redaction-) and decide if redaction or further appraisal is needed. 
    * Add this to the [processing plan,](./processing-plans.md) documented in the appropriate accession record(s).
 4. Arrange material into AIP groupings as needed and document.
+   * Maximum size of 100 GB and 10,000 files required for preservation system.
+   * Preference for fewer formats in an AIP if possible, to aid in format migration.
 5. If reformatting is required, create a second version of the AIPs. Reformat as needed and document.
 6. If [redaction](./sensitive-data.md#redaction-) is required, create access copies of the AIP groupings (DIPs). Redact as needed and document.
 7. Generate file inventories for each DIP.
