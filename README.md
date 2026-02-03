@@ -47,11 +47,16 @@ Processed born-digital archives should be arranged as needed, any known sensitiv
    * Preference for fewer formats in an AIP if possible, to aid in format migration.
 5. If reformatting is required, create a second version of the AIPs. Reformat as needed and document.
 6. If [redaction](./sensitive-data.md#redaction-) is required, create access copies of the AIP groupings (DIPs). Redact as needed and document.
-7. Generate file inventories for each DIP.
-8. Turn the arranged materials into AIPs using the [general_aip.py](https://github.com/uga-libraries/general-aip) script. 
-9. [Ingest the AIPs](./ingest.md) into the digital preservation system. The original files should always be ingested as Version 1. Any AIPs containing reformatted files should be ingested as Version 2.
-10. Perform subject analysis for description purposes as needed (workflow TBD).
-11. Update the collection's resource record with AIP-level description and links to each AIP's file inventory spreadsheet.
+7. Make copy of AIPs and a metadata.csv, in preparation for making AIPs.
+   * In folder PreservationCopy (sibling of ProcessingCopy), and within that a folder named aips_directory
+   * Within aips_directory, also make metadata.csv using [template](https://github.com/uga-libraries/general-aip/blob/main/documentation/metadata.csv)
+     * AIP ID is dept-coll-er-######
+     * Collection ID should not include letters from legacy Russell ids
+8. Generate file inventories for each DIP.
+9. Turn the arranged materials into AIPs using the [general_aip.py](https://github.com/uga-libraries/general-aip) script. 
+10[Ingest the AIPs](./ingest.md) into the digital preservation system. The original files should always be ingested as Version 1. Any AIPs containing reformatted files should be ingested as Version 2.
+11. Perform subject analysis for description purposes as needed (workflow TBD).
+12. Update the collection's resource record with AIP-level description and links to each AIP's file inventory spreadsheet.
 
 ## Documentation Overview
 
