@@ -30,6 +30,9 @@ like AIP ID = DIP ID + additional sequential number.
 2. Verify the configuration.py paths are correct
 3. Run [general_aip.py](https://github.com/uga-libraries/general-aip)
 
+We intend to retain the AIP log as part of the permanent record of the collection.
+The rest of the script outputs will be deleted at the end of processing.
+
 ### Quality Control
 Results are documented in [aip_qc_results.txt](linked-documents/aip_qc_results.txt)
 
