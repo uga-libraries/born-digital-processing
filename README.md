@@ -78,13 +78,12 @@ Processed materials are ingested into the digital preservation system (ARCHive) 
 8. Head of Digital Stewardship makes and ingests AIPs [preservation.md](preservation.md)
    * Digital Archivist will simultaneously continue with description and access copies.
    
-9. Generate file inventories for each DIP.
+9. Describe the collection.
+   * Generate file inventories for each DIP. 
+   * Perform subject analysis for description purposes as needed (workflow TBD). 
+   * Update the collection's resource record with AIP-level description and links to each AIP's file inventory spreadsheet.
 
-10. Perform subject analysis for description purposes as needed (workflow TBD).
-
-11. Update the collection's resource record with AIP-level description and links to each AIP's file inventory spreadsheet.
-
-12. Wrap up
+10. Wrap up
     * Move permanent documentation from Hub to the collection folder in Digital Stewardship Teams.
     * Delete the collection folder from Hub and the Hub inventory.
     * Close card in Planner.
