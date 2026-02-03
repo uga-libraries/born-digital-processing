@@ -21,7 +21,9 @@ Create AIPs within one month of being assigned a collection in Planner.
 TBD: check that AIPs do not exceed maximum size of 100 GB and 10,000 files.
 See [aip_prep.py](https://github.com/uga-libraries/congressional-mail/blob/main/aip_prep.py) 
 for automatically splitting AIPs that are too large and have no logical subdivisions.
-Consult with the Digital Archivist to update IDs in the description if splitting AIPs.
+Consult with the Digital Archivist to update IDs in the description if splitting AIPs
+or establish a naming convention to keep AIP ID and DIP ID related but different,
+like AIP ID = DIP ID + additional sequential number.
 
 ### Script
 1. Make a copy of aips_directory, for an easier restart in case of script errors.
