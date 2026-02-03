@@ -4,6 +4,9 @@
 
 As of January 2026, the Digital Archivist organizes the contents into AIP folders and makes the metadata.csv
 and the Head of Digital Stewardship makes AIPs and ingests them into ARCHive.
+This is a workflow that the Head of Digital Stewardship is already doing for other departments,
+so it frees up more time for the Digital Archivist to process 
+and spares them another set of scripts and tools to be responsible for learning.
 
 Communication is managed through the Born-Digital Collections Tracking in Planner.
 
