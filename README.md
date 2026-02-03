@@ -88,4 +88,6 @@ The first born-digital processing workflow was documented in the Hargrett and Ru
 
 The initial version of this workflow was completed in August 2023 by Emmeline Kaser (Digital Archivist, Digital Stewardship) and represents the processes in place starting in August 2022. This workflow draws conceptually from older documentation but supersedes those processes due to changes in technological capabilities.
 
+The portion of the workflow related to AIP creation was updated in February 2026 by Adriane Hanson (Head of Digital Stewardship) and Brenna Edwards (Digital Archivist) to define a new collaboration between our two positions.
+
 Documentation last reviewed: September 2024
