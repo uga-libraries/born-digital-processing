@@ -55,10 +55,14 @@ Processed born-digital archives should be arranged as needed, any known sensitiv
        but does include Hargrett repository letters like ms and ua
    * Move to Preservation column in Planner and assign responsibility to the Head of Digital Stewardship to notify 
 8. Head of Digital Stewardship makes and ingests AIPs [preservation.md](preservation.md)
-    * Digital Archivist will simultaneously continue with description and access copies.
+   * Digital Archivist will simultaneously continue with description and access copies.
 9. Generate file inventories for each DIP.
 10. Perform subject analysis for description purposes as needed (workflow TBD).
 11. Update the collection's resource record with AIP-level description and links to each AIP's file inventory spreadsheet.
+12. Wrap up
+   * Move permanent documentation from Hub to collection folder in Digital Stewardship Teams.
+   * Delete collection folder from Hub and the Hub inventory.
+   * Close card in Planner.
 
 ## Documentation Overview
 
