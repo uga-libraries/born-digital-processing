@@ -2,7 +2,7 @@
 
 ## Purpose
 Compare the bag MD5 manifests for all accessions and all AIPs 
-To verify that no files were accidentally deleted or altered during processing or AIP creation.
+to verify that no files were accidentally deleted or altered during processing or AIP creation.
 
 ## Workflow Summary
 Verify that every file's path and fixity (MD5) match between the accession(s) and AIP(s). 
@@ -14,7 +14,7 @@ The comparison must also take into account files purposefully deleted or restric
 
 ## Workflow
 1. Make an Excel file named fixity_comparison.xlsx in the parent folder of PreservationCopy.
-2. Name the columns Accession MD5, Accession Path (modified), MD5 Match, Path Match, AIP MD5, AIP Path
+2. Name the columns Accession MD5, Accession Path, MD5 Match, Path Match, AIP MD5, AIP Path
 3. Copy the contents of every MD5 manifest from the accession bags to the Accession MD5 column.
 4. Copy the contents of every MD5 manifest from the AIP bags to the AIP MD5 column.
 5. Replace "  data" (2 spaces) with "|data" to have a delimiter for splitting MD5s from paths.

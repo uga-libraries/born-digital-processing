@@ -3,9 +3,9 @@ The Hargrett Rare Book and Manuscript Library and The Richard B. Russell Jr. Lib
 University of Georgia Special Collections Libraries
 
 The following processes were instituted in August 2022. 
-Digital archives processing is the responsibility of the digital archivist in the Digital Stewardship unit. 
+Digital archives processing is the responsibility of the Digital Archivist in the Digital Stewardship unit. 
 This is a unified workflow that receives born-digital archival material from both the Russell and Hargrett libraries. 
-The digital archivist works in collaboration with each library's collecting archivists to properly address sensitive information 
+The Digital Archivist works in collaboration with each library's processing archivists to properly address sensitive information 
 and provide an appropriate level of description for each collection.
 
 Starting in 2026, preservation steps were transferred to the Head of Digital Stewardship.
@@ -22,7 +22,7 @@ This documentation references Python scripts in the [accessioning-scripts reposi
 Processed born-digital archives should be arranged as needed, any known sensitive information should be addressed 
 (or there should be a plan to address it when materials are requested), imminent preservation risks should be remediated, 
 and the materials should be discoverable via the collection's finding aid. 
-Processed materials are ingested into the digital preservation system for permanent storage.
+Processed materials are ingested into the digital preservation system (ARCHive) for permanent storage.
 
 ### The goals of this workflow:
 
@@ -66,8 +66,8 @@ Processed materials are ingested into the digital preservation system for perman
 
 6. If [redaction](./sensitive-data.md#redaction-) is required, create access copies of the AIP groupings (DIPs). Redact as needed and document.
 
-7. Make copy of AIPs and a metadata.csv, in preparation for making AIPs.
-   * In folder PreservationCopy (sibling of ProcessingCopy), and within that a folder named aips_directory
+7. Make a copy of the AIP folders and create a metadata.csv, in preparation for making AIPs.
+   * Put in a folder named PreservationCopy (sibling of ProcessingCopy), and within that, in a folder named aips_directory
    * Within aips_directory, also make metadata.csv using [template](https://github.com/uga-libraries/general-aip/blob/main/documentation/metadata.csv)
      * AIP ID is dept-coll-er-######
      * Collection ID should not include letters from legacy Russell ids, 
@@ -84,8 +84,8 @@ Processed materials are ingested into the digital preservation system for perman
 11. Update the collection's resource record with AIP-level description and links to each AIP's file inventory spreadsheet.
 
 12. Wrap up
-    * Move permanent documentation from Hub to collection folder in Digital Stewardship Teams.
-    * Delete collection folder from Hub and the Hub inventory.
+    * Move permanent documentation from Hub to the collection folder in Digital Stewardship Teams.
+    * Delete the collection folder from Hub and the Hub inventory.
     * Close card in Planner.
 
 ## Documentation Overview
@@ -107,11 +107,10 @@ This documentation includes:
   * Preservation log
   * AIP creation log
 
-
 ## Policy Revision History
 
 The first born-digital processing workflow was documented in the Hargrett and Russell libraries' 
-"Electronic Records Processing Manual" created in 2013 by Adriane Hanson (Head of Digital Stewardship). 
+"Electronic Records Processing Manual" created in 2013 by Adriane Hanson (then Processing and Digital Archivist, Russell Library). 
 Additional documentation and scripts were created by Brandon Pieczko (Processing and Digital Archivist, Russell Library) in 2019. 
 This documentation supersedes the prior suite of [born-digital processing documentation](https://github.com/uga-libraries/born-digital-processing/tree/main/legacy-docs-2017-2019) created at that time.
 
