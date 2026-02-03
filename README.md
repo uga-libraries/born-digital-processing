@@ -78,6 +78,8 @@ This documentation includes:
   * Arrangement log, if applicable
   * File inventories for each DIP
   * Ingest note
+  * Preservation log
+  * AIP creation log
 
 
 ## Policy Revision History
