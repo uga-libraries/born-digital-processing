@@ -1,0 +1,25 @@
+Summary of AIP QC for [COLL_ID]
+YYYY.MM.DD NAME
+
+AIP CREATION: PASS/FAIL
+AIP log: no errors/errors
+Preservation.xml via ARCHive app: valid/not-valid
+Fixity comparison to accession: match/not match
+AIP check:
+  - aip-id: pass/fail
+  - aip-id: pass/fail 
+  - aip-id: pass/fail 
+  - aip-id: pass/fail 
+  - aip-id: pass/fail 
+
+ARCHIVE INGEST: PASS/FAIL
+Job summary: no errors/errors
+AIP metadata check
+  - aip-id: pass/fail 
+  - aip-id: pass/fail 
+  - aip-id: pass/fail
+  - aip-id: pass/fail 
+  - aip-id: pass/fail   
+AIP copy request: 
+  - aip-id: valid/not valid
+  - did not request, as I verified copies for a different collection on the same day

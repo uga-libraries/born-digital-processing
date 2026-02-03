@@ -31,7 +31,7 @@ like AIP ID = DIP ID + additional sequential number.
 3. Run [general_aip.py](https://github.com/uga-libraries/general-aip)
 
 ### Quality Control
-Results are documented in aip_qc_results.txt. Template in Digital Stewardship Teams.
+Results are documented in [aip_qc_results.txt](linked-documents/aip_qc_results.txt)
 
 1. Review AIP log for errors.
 2. Zip all preservation.xml and validate in ARCHive, adding collection if needed.
