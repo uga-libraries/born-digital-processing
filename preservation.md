@@ -11,7 +11,7 @@ Communication is managed through the Born-Digital Collections Tracking in Planne
 ## AIP Creation
 
 ### Preparation
-1. Copy PreservationCopy from Hub to local machine with TeraCopy. (until address permission issues)
+1. Move PreservationCopy from Hub to local machine with TeraCopy. (until address permission issues)
 2. Move each AIP folder into a temporary folder, which can be renamed with the AIP ID. (until update script)
 3. Update the folder column in metadata.csv to match the temporary folders.
 
@@ -52,3 +52,28 @@ Add the AIPs to UGA's digital preservation system. See DCWG Teams for documentat
 5. Note PASS/FAIL for the ARCHIVE INGEST portion of aip_qc_results.txt.
 
 ## Documentation and Hand Off
+
+### Hub
+Move PreservationCopy back into the Hub collection folder,
+which now contains all the script outputs and logs.
+
+At the end of processing, the Digital Archivist will move permanent documentation to the collections folder in Digital Stewardship Teams
+and delete all other files from Hub.
+
+### Preservation Log
+Add an event for AIP creation and ingest.
+
+Standard text for both on the same day:
+* Created # AIPs with general_aip.py and ingested into ARCHive with no errors.
+
+Standard text for different days (need to wait for ARCHive ingest to complete for final QC)
+* Created # AIPs with general_aip.py with no errors.
+* Ingested into ARCHive with no errors.
+
+### Planner
+This is how the Digital Archivist will be notified that preservation is complete.
+
+1. In the checklist, mark Preservation: AIP creation and ingest as complete.
+2. Add a comment if anything unusual happened.
+3. Change the person assigned to the Digital Archivist, which generates an email notification.
+4. Move the collection to the Finding Aid column
