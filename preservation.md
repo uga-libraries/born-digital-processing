@@ -18,6 +18,11 @@ Create AIPs within one month of being assigned a collection in Planner.
 2. Move each AIP folder into a temporary folder, which can be renamed with the AIP ID. (until update script)
 3. Update the folder column in metadata.csv to match the temporary folders.
 
+TBD: check that AIPs do not exceed maximum size of 100 GB and 10,000 files.
+See [aip_prep.py](https://github.com/uga-libraries/congressional-mail/blob/main/aip_prep.py) 
+for automatically splitting AIPs that are too large and have no logical subdivisions.
+Consult with the Digital Archivist to update IDs in the description if splitting AIPs.
+
 ### Script
 1. Make a copy of aips_directory, for an easier restart in case of script errors.
 2. Verify the configuration.py paths are correct
