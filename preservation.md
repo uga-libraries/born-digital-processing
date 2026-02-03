@@ -84,7 +84,7 @@ Standard text for different days (need to wait for ARCHive ingest to complete fo
 * Created # AIPs with general_aip.py with no errors.
 * Ingested into ARCHive with no errors.
 
-### Planner
+### Born-Digital Collections Tracking Planner
 This is how the Digital Archivist will be notified that preservation is complete.
 
 1. In the checklist, mark Preservation: AIP creation and ingest as complete.
