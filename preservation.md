@@ -5,10 +5,10 @@
 As of January 2026, the Digital Archivist organizes the contents into AIP folders and makes the metadata.csv
 and the Head of Digital Stewardship makes AIPs and ingests them into ARCHive.
 
-
 Communication is managed through the Born-Digital Collections Tracking in Planner.
 
 ## AIP Creation
+Create AIPs within one month of being assigned a collection in Planner.
 
 ### Preparation
 1. Move PreservationCopy from Hub to local machine with TeraCopy. (until address permission issues)
