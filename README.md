@@ -63,6 +63,7 @@ Processed materials are ingested into the digital preservation system (ARCHive) 
    * Preference for fewer formats in an AIP if possible, to aid in format migration.
    
 5. If reformatting is required, create a second version of the AIPs. Reformat as needed and document.
+    * May also reformat to improve access, in which case only alter what is in the DIP.
 
 6. If [redaction](./sensitive-data.md#redaction-) is required, create access copies of the AIP groupings (DIPs). Redact as needed and document.
 
