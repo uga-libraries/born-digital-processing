@@ -34,7 +34,7 @@ like AIP ID = DIP ID + additional sequential number.
 Results are documented in [aip_qc_results.txt](linked-documents/aip_qc_results.txt)
 
 1. Review AIP log for errors.
-2. Zip all preservation.xml and validate in ARCHive, adding collection if needed.
+2. Zip all preservation.xml and validate in ARCHive, adding collection if needed using ID and title from Planner.
 3. Compare MD5 checksums of the accession(s) to the AIP(s) using the bag manifests. [excel-md5-compare.md](linked-documents/excel-md5-compare.md)
 4. Check 1-5 AIPs (depending on number of AIPs and level of difference) in more detail.
     * Bag has MD5 and SHA manifests.
