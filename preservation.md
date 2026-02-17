@@ -30,6 +30,9 @@ like AIP ID = DIP ID + additional sequential number.
 2. Verify the configuration.py paths are correct.
 3. Run [general_aip.py](https://github.com/uga-libraries/general-aip).
 
+If different versions of the same AIP are being made at the same time, they must be in different aip_directories
+or the script fails when it tries to make the second aip-id_bag (same folder name).
+
 We intend to retain the AIP log as part of the permanent record of the collection.
 The rest of the script outputs will be deleted by the Digital Archivist at the end of processing.
 
