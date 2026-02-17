@@ -57,6 +57,7 @@ Add the AIPs to UGA's digital preservation system. See DCWG Teams for documentat
 ### Job Scheduling
 1. Copy the zipped AIPs to the ARCHive ingest folder.
 2. Schedule the job for ingest via the ARCHive application.
+3. Check Planner for if there are access copies. If so, add a Special Access Policy right and a note "See Hub Born-digital access copies if researcher requests"
 
 ### Quality Control
 1. Review the Job Summary in the ARCHive application for errors.
