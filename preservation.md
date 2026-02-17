@@ -88,6 +88,9 @@ Standard text for different days (need to wait for ARCHive ingest to complete fo
 * Created # AIPs with general_aip.py with no errors.
 * Ingested into ARCHive with no errors.
 
+Do not include the AIP count if there are multiple accessions unless it is very quick to see how many AIPs per accession.
+Each accession has a separate preservation log.
+
 ### Born-Digital Collections Tracking Planner
 This is how the Digital Archivist will be notified that preservation is complete.
 
