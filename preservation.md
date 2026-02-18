@@ -96,6 +96,6 @@ Each accession has a separate preservation log.
 This is how the Digital Archivist will be notified that preservation is complete.
 
 1. In the checklist, mark "Preservation: AIP creation and ingest" as complete.
-2. Add a comment if anything unusual happened.
+2. Add a comment if anything unusual happened or give feedback on the process.
 3. Change the person assigned to the Digital Archivist, which generates an email notification.
 4. Move the collection to the Finding Aid column.
