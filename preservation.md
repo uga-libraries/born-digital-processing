@@ -34,8 +34,8 @@ If different versions of the same AIP are being made at the same time, they must
 or the script fails when it tries to make the second aip-id_bag (same folder name)
 and have different parent directories or the combined-fits and preservation-xml get overwritten.
 
-We intend to retain the AIP log as part of the permanent record of the collection.
-The rest of the script outputs will be deleted by the Digital Archivist at the end of processing.
+Some of the script outputs are retained as part of the permanent record of the collection.
+The Digital Archivist is responsible for saving or deleting files at the end of processing.
 
 ### Quality Control
 Results are documented in [aip_qc_results.txt](linked-documents/aip_qc_results.txt).
