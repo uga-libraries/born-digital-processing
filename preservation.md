@@ -28,7 +28,7 @@ like AIP ID = DIP ID + additional sequential number.
 ### Script
 1. Make a copy of aips_directory, for an easier restart in case of script errors.
 2. Verify the configuration.py paths are correct.
-3. Skim through metadata.csv for any errors. Occassionally get a typo in a title, for example.
+3. Skim through metadata.csv for any errors. Occassionally get a typo or smart quotes in a title, for example.
 4. Run [general_aip.py](https://github.com/uga-libraries/general-aip).
 
 If different versions of the same AIP are being made at the same time, they must be in different aip_directories
