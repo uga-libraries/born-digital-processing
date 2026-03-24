@@ -13,15 +13,15 @@ and paths for AIPs must be updated to remove AIP-specific folders and metadata f
 The comparison must also take into account files purposefully deleted or restricted during processing.
 
 ## Workflow
-1. Make an Excel file named fixity_comparison.xlsx in the parent folder of PreservationCopy.
-2. Name the columns Accession MD5, Accession Path, MD5 Match, Path Match, AIP MD5, AIP Path
+1. Make an Excel file named fixity_comparison.xlsx in the PreservationCopy folder.
+2. Name the columns Accession MD5, Accession Path, Accession Path (updated), MD5 Match, Path Match, AIP MD5, AIP Path
 3. Copy the contents of every MD5 manifest from the accession bags to the Accession MD5 column.
 4. Copy the contents of every MD5 manifest from the AIP bags to the AIP MD5 column.
 5. Replace "  data" (2 spaces) with "|data" to have a delimiter for splitting MD5s from paths.
 6. Use text-to-columns to split each MD5 column on "|" and get paths to the correct column.
 7. Sort AIP Path and delete the AIP columns for that row if the path starts data/metadata.
 8. Replace data/objects with data.
-9. Remove media IDs from the Accession Path column.
+9. Remove media IDs and otherwise update Accession Path (updated) column to match what is in the AIP(s).
 10. Sort the two path columns independently.
 11. Use the if function to populate MD5 Match and Path Match.
     * If the path is only in the Accession, check the file deletion log and processing plan for restrictions.
