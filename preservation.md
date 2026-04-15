@@ -93,6 +93,12 @@ Standard text for different days (need to wait for ARCHive ingest to complete fo
 Do not include the AIP count if there are multiple accessions unless it is very quick to see how many AIPs per accession.
 Each accession has a separate preservation log.
 
+If there is an error during ingest, add the count of of ones successfully ingested (e.g., ingested 7 AIPs into ARCHive with no errors)
+and make a different entry for how the errors were addressed.
+
+For remaking AIPs due to characters in the preservation.xml: 		
+Removed special characters from preservation.xml from AIP ID LIST. Validated bag with bagit.py prior to editing, updated bag manifest with update_bag.py, tarred and zipped with 7Zip, and calculated md5 manifest with md5deep64. Ingested into ARCHive with no errors.
+
 ### Born-Digital Collections Tracking Planner
 This is how the Digital Archivist will be notified that preservation is complete.
 
