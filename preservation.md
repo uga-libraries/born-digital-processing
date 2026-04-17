@@ -97,7 +97,7 @@ If there is an error during ingest, add the count of of ones successfully ingest
 and make a different entry for how the errors were addressed.
 
 For remaking AIPs due to characters in the preservation.xml: 		
-Removed special characters from preservation.xml from AIP ID LIST. Validated bag with bagit.py prior to editing, updated bag manifest with update_bag.py, tarred and zipped with 7Zip, and calculated md5 manifest with md5deep64. Ingested into ARCHive with no errors.
+Removed special characters from preservation.xml from AIP ID LIST. Validated bag with bagit.py prior to editing, updated bag manifest with update_bag.py, tarred and zipped with 7Zip, and calculated md5 for the manifest with md5deep64. Ingested into ARCHive with no errors.
 
 ### Born-Digital Collections Tracking Planner
 This is how the Digital Archivist will be notified that preservation is complete.
