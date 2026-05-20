@@ -30,3 +30,6 @@ In the metadata.csv:
 - Title is Top Folder - Sub Folder | date-date
 
 Everything must be in a folder named with its AIP ID, instead of having the script do that, so they can all have the same top level folder.
+
+It is not important to keep AIP IDs in sequential order.
+So, if an AIP is split after AIP IDs have already been assigned, the first AIP keeps the original AIP ID and the remaining AIPs are assigned the next available in sequence.
