@@ -40,6 +40,40 @@ In the metadata.csv:
 - Folder and AIP_ID columns are the AIP ID
 - Title is Top Folder - Sub Folder | date-date
 
+### Example
+
+Folder hierarchy prior to splitting
+
+- Top_Folder_Title
+   - Folder_A
+      - A_contents
+   - Folder_B
+      - B_contents
+   - Folder_C
+      - C_contents
+   - File1.txt
+   - File2.txt
+
+Folder hierarchy after splitting
+
+- dept-coll-er-000001
+   - Top_Folder_Title
+      - Folder_A
+         - A_contents
+         - File1.txt
+- dept-coll-er-000002
+   - Top_Folder_Title
+      - Folder_B
+         - B_contents
+- dept-coll-er-000003
+   - Top_Folder_Title
+      - Folder_C
+         - C_contents
+- dept-coll-er-000004
+   - Top_Folder_Title
+      - Folder_D
+         - File2.txt
+
 ### Additional Considerations
 Everything must be in a folder named with its AIP ID, instead of having the script do that, so they can all have the same top level folder.
 
