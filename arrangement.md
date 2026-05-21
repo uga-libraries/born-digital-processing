@@ -33,6 +33,10 @@ Even if an AIP is small enough, consider splitting if:
 
 INSERT INFO ON RUNNING SCRIPT TO TEST FOR SIZE ONCE HAVE IN THE BAGS REPO
 
+All files within the top-folder being split must be in folders themselves.
+Add any files without folders to existing folders if clearly relevant or make new folder(s) for them.
+Each folder within the top-level folder will become its own AIP.
+
 To split a top-level folder into multiple AIPs while retaining the contextual information:
 - Make folders with each AIP ID
 - Make a folder within each AIP ID folder with the same name as the top-level folder to retain the relationship outside of the finding aid
