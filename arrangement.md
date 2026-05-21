@@ -9,7 +9,14 @@ We reorganize to make them more usable:
 - Remove unnecessary levels of hierarchy
 - Address file paths that are too long
 
-## Splitting AIPs while retaining context
+## Current practices
+Because we have the initial manifest which documents the original folder and file names and hierarchy,
+it is acceptable to make changes to the organization and naming as needed without additional documentation.
+
+Changes we make include:
+- Rename a folder if it is abbreviated or cryptic and you are confident in what you're naming it.
+- Add additional files to existing folders when they are clearly on the same subject.
+- Add new folders to combine files and/or folders, and there is no naming convention to show we provided the title.## Splitting AIPs while retaining context
 
 ### When to split
 The final arrangement determines the AIP boundaries.
