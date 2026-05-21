@@ -18,6 +18,8 @@ Changes we make include:
 - Add additional files to existing folders when they are clearly on the same subject.
 - Add new folders to combine files and/or folders, and there is no naming convention to show we provided the title.## Splitting AIPs while retaining context
 
+## Splitting a top level folder for AIPs
+
 ### When to split
 The final arrangement determines the AIP boundaries.
 We recommend (but do not require) an AIP be no more than 10,000 files and 100 GB.
