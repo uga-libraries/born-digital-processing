@@ -31,7 +31,10 @@ Even if an AIP is small enough, consider splitting if:
 
 ### Procedure
 
-INSERT INFO ON RUNNING SCRIPT TO TEST FOR SIZE ONCE HAVE IN THE BAGS REPO
+Run the script [check_file_count.py](https://github.com/uga-libraries/bags/blob/main/check_file_count.py) to find folders over 10,000 files.
+It is too time consuming to use Python to calculate the size of every folder,
+so instead use file properties to check the few folders with the highest file count and any with AV to find ones over 100 GB.
+We can also quickly test for ones over 100 GB after the AIP is made using the bag metadata, which will catch any missed.
 
 All files within the top-folder being split must be in folders themselves.
 Add any files without folders to existing folders if clearly relevant or make new folder(s) for them.
