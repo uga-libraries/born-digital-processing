@@ -15,13 +15,9 @@ Create AIPs within one month of being assigned a collection in Planner.
 
 ### Preparation
 1. Copy PreservationCopy from Hub to local machine with TeraCopy. (until address permission issues)
-
-TBD: check that AIPs do not exceed maximum size of 100 GB and 10,000 files.
-See [aip_prep.py](https://github.com/uga-libraries/congressional-mail/blob/main/aip_prep.py) 
-for automatically splitting AIPs that are too large and have no logical subdivisions.
-Consult with the Digital Archivist to update IDs in the description if splitting AIPs
-or establish a naming convention to keep AIP ID and DIP ID related but different,
-like AIP ID = DIP ID + additional sequential number.
+2. Check for any folders to split (over 10,000 files) with [check_file_count.py](https://github.com/uga-libraries/bags/blob/main/check_file_count.py)
+   If the entire collection is over 100 GB, use file properties to check a the ones with the most files for any that need to be split for size.
+   See [the arrangement section](arrangement.md) for details on how to split AIPs and consult the Digital Archivist with any questions about naming conventions and groupings.
 
 Note: prior to 5/19/2026, AIP folders had to be moved to a temporary folder that could be renamed with the AIP ID to preserve the name of the top level folder.
 After that date, if the AIP folder was not already the AIP ID (in which case nothing happens), the script automatically moves it into a folder named with the AIP ID.
