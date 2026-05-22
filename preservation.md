@@ -50,6 +50,14 @@ Results are documented in [aip_qc_results.txt](linked-documents/aip_qc_results.t
     * Look for anything that doesn't look right.
 6. Note PASS/FAIL for the AIP Creation portion of aip_qc_results.txt
 
+### Remaking AIPs
+If a large number of AIPs have errors from the same source, like a new data format or a tool that made an incorrect format identification, update the script or FITS configuration and create the AIPs again.
+
+For a smaller number, or for errors that cannot be corrected in an automated way, manually remake the AIP.
+1. Use bagit to validate the bag, to reduce the chance a corrupted file is saved as correct when updating the bag.
+2. Edit the bag, usually the preservation.xml, to fix it.
+3. Use the script [finish_aip.py](https://github.com/uga-libraries/general-aip/blob/main/finish_aip.py) to make a zip and manifest ready to ingest. Running the script on multiple bags in the same folder will add everything to a single manifest.
+
 ## ARCHive Ingest
 Add the AIPs to UGA's digital preservation system. See DCWG Teams for documentation.
 
