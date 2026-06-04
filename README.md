@@ -49,16 +49,18 @@ Processed materials are ingested into the digital preservation system (ARCHive) 
 ## Procedure Overview
 
 1. Assign a [processing tier](./processing-tiers.md) to the collection.
+   * Add this to the [processing plan](./linked-documents/ProcessingPlanTemplate.docx).
+   * [Standard language](./processing-plans.md) outlining processing for each tier document. 
 
 2. Run  [format_analysis.py](https://github.com/uga-libraries/accessioning-scripts#format-analysispy) and review the format report it creates. Decide if any immediate [file format migration](./format-assessment-and-migration.md) is needed. 
-   * Add this to the [processing plan,](./processing-plans.md) documented in the appropriate accession record(s).
+   * Add this to the [processing plan](./linked-documents/ProcessingPlanTemplate.docx).
    * TBD - may fit better with Head of Digital Stewardship's preservation role now.
    
 3. If there is a risk for sensitive data, scan the collection using Bulk Reviewer in the BitCurator environment. 
    [Identify any sensitive information](./sensitive-data.md#identifying-information-for-redaction-) and decide if redaction or further appraisal is needed. 
-   * Add this to the [processing plan,](./processing-plans.md) documented in the appropriate accession record(s).
+   * Add this to the [processing plan](./linked-documents/ProcessingPlanTemplate.docx).
    
-4. Arrange material into AIP groupings as needed and document.
+4. Arrange material into AIP groupings as needed and [document](./linked-documents/arrangementLog_TEMPLATE.xlsx).
    * Maximum size of 100 GB and 10,000 files required for preservation system.
    * Preference for fewer formats in an AIP if possible, to aid in format migration.
    
