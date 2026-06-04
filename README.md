@@ -84,7 +84,7 @@ Processed materials are ingested into the digital preservation system (ARCHive) 
    * Update the collection's resource record with AIP-level description and links to each AIP's file inventory spreadsheet.
 
 10. Wrap up
-    * Move permanent documentation from Hub to the collection folder in Digital Stewardship Teams.
+    * Move [permanent documentation](permanent-documentation.md) from Hub to the collection folder in Digital Stewardship Teams.
     * Delete the collection folder from Hub and the Hub inventory.
     * Close card in Planner.
 
