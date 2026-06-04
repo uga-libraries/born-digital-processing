@@ -83,7 +83,7 @@ Processed materials are ingested into the digital preservation system (ARCHive) 
 9. Describe the collection.
    * Generate file inventories for each DIP. 
    * Perform subject analysis for description purposes as needed (workflow TBD). 
-   * Update the collection's resource record with AIP-level description and links to each AIP's file inventory spreadsheet.
+   * Update the collection's [resource record](./description.md) with AIP-level description and links to each AIP's file inventory spreadsheet.
 
 10. Wrap up
     * Move [permanent documentation](permanent-documentation.md) from Hub to the collection folder in Digital Stewardship Teams.
