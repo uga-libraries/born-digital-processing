@@ -25,8 +25,10 @@ After that date, if the AIP folder was not already the AIP ID (in which case not
 ### Script
 1. Make a copy of aips_directory, for an easier restart in case of script errors.
 2. Verify the configuration.py paths are correct.
-3. Skim through metadata.csv for any errors. Occassionally get a typo or smart quotes in a title, for example.
-4. Run [general_aip.py](https://github.com/uga-libraries/general-aip).
+3. Skim through metadata.csv for any errors.
+   Occassionally get a typo or smart quotes in a title, for example.
+   If this is an addition, confirm the AIP ID formatting matches the formatting for the rest of the collection and starts at the correct number.
+5. Run [general_aip.py](https://github.com/uga-libraries/general-aip).
 
 If different versions of the same AIP are being made at the same time, they must be in different aip_directories
 or the script fails when it tries to make the second aip-id_bag (same folder name)
