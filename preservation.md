@@ -43,7 +43,7 @@ Results are documented in [aip_qc_results.txt](linked-documents/aip_qc_results.t
 1. Review AIP log for errors.
 2. Check for any bags that are too large using [check_bag_size.py](https://github.com/uga-libraries/bags/blob/main/check_bag_size.py)
 3. Zip all preservation.xml and validate in the ARCHive application, adding the collection if needed using ID and title from Planner.
-4. Compare MD5 checksums of the accession(s) to the AIP(s) using the bag manifests. [excel-md5-compare.md](linked-documents/excel-md5-compare.md)
+4. Verify fixity of files in AIP(s) against the accession(s) using [accession-aip-comparison.py](https://github.com/uga-libraries/processing-scripts/blob/main/accession-aip-comparison.py). It will save a report if there are changes or print a message if there are not.
 5. Check a sample of 1-5 AIPs (depending on number of AIPs and level of difference) in more detail:
     * Bag has MD5 and SHA manifests.
     * Bag has objects and metadata folders.
