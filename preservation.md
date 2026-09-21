@@ -43,14 +43,18 @@ Results are documented in [aip_qc_results.txt](linked-documents/aip_qc_results.t
 1. Review AIP log for errors.
 2. Check for any bags that are too large using [check_bag_size.py](https://github.com/uga-libraries/bags/blob/main/check_bag_size.py)
 3. Zip all preservation.xml and validate in the ARCHive application, adding the collection if needed using ID and title from Planner.
-4. Verify fixity of files in AIP(s) against the accession(s) using [accession-aip-comparison.py](https://github.com/uga-libraries/processing-scripts/blob/main/accession-aip-comparison.py). It will save a report if there are changes or print a message if there are not.
-5. Check a sample of 1-5 AIPs (depending on number of AIPs and level of difference) in more detail:
+4. Verify fixity of files in AIP(s) against the accession(s) using [accession-aip-comparison.py](https://github.com/uga-libraries/processing-scripts/blob/main/accession-aip-comparison.py). It will save a report if there are changes or print a message if there are not. If a report is made:
+    * Add a column "Resolution" after the report's columns
+    * If fixity is changed, put "Fixity change - restore from accession"
+    * If there is another reason (e.g., different format, file renamed), put "No action needed: explanation"
+    * Run the report a second time (temporarily rename the original report so it is not overwritten) to confirm only ones with No action needed remain and delete the second iteration of the report. The first report with the resolution is the permanent documentation.
+6. Check a sample of 1-5 AIPs (depending on number of AIPs and level of difference) in more detail:
     * Bag has MD5 and SHA manifests.
     * Bag has objects and metadata folders.
     * The number of files in "objects" matches the number of FITS in "metadata".
     * The contents of the preservation.xml match the metadata.csv and combined FITS XML.
     * Look for anything that doesn't look right.
-6. Note PASS/FAIL for the AIP Creation portion of aip_qc_results.txt
+7. Note PASS/FAIL for the AIP Creation portion of aip_qc_results.txt
 
 ### Remaking AIPs
 If a large number of AIPs have errors from the same source, like a new data format or a tool that made an incorrect format identification, update the script or FITS configuration and create the AIPs again.
